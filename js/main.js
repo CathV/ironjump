@@ -4,9 +4,9 @@ var height = 1700; // Default value is 1700
 var ball = {};
 var camera = {};
 gravity = 5; // Default value is 5
-intervalTimeout = 25; // Default value is 25
+intervalTimeout = 35; // Default value is 25
 var intervalId;
-var debug = true; // Change it to false to remove the grid
+var debug = false; // Change it to false to remove the grid
 
 
 // When all the HTML is loaded
@@ -85,7 +85,7 @@ function play() {
     y: height/2,
     vx: 0,
     vy: 10,
-    color: 'black',
+    color: 'blue',
   }
   camera = {
     y: 0,
@@ -99,11 +99,11 @@ function play() {
 }
 
 function changeBgColor() {
-  if ($("canvas").css("background-color") == "rgb(255, 60, 60)") {
-    $("canvas").css("background-color", "rgb(100, 110, 255)");
+  if ($("canvas").css("background-color") == "rgb(255, 255, 255)") {
+    $("canvas").css("background-color", "rgb(100, 80, 120)");
   }
   else {
-    $("canvas").css("background-color", "rgb(255, 60, 60)");
+    $("canvas").css("background-color", "rgb(255, 255, 255)");
   }
 }
 
@@ -119,7 +119,7 @@ function update() {
     y: ball.y + ball.vy,
     vx: ball.vx*0.9,
     vy: ball.vy + gravity,
-    color: 'black',
+    color: 'grey',
   }
 
   for (var i = 0; i < platforms.length; i++) {
@@ -214,7 +214,7 @@ function drawGridCoordinates() {
 function drawMenu(text) {
   ctx.save();  
 
-  ctx.fillStyle = "black";
+  ctx.fillStyle = "grey";
   ctx.fillRect(0, 0, width, 90);
 
   ctx.fillStyle = "white";

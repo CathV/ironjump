@@ -5,6 +5,11 @@ var platforms = [
     width: 1000
   },
   {
+    x: 300,
+    y: 300,
+    width: 100
+  },
+  {
     x: 400,
     y: 500,
     width: 200
@@ -23,7 +28,7 @@ var platforms = [
     x: 300,
     y: -250,
     width: 200,
-    color: "rgb(255, 60, 60)"
+    color: "rgb(255, 120, 70)"
   },
   {
     x: 0,
@@ -34,7 +39,7 @@ var platforms = [
     x: 150,
     y: -750,
     width: 200,
-    color: "rgb(100, 110, 255)"
+    color: "rgb(250,60,90)"
   },
   {
     x: 0,
@@ -73,8 +78,7 @@ var platforms = [
   },
 ]
 
-// // Example of random generation of platforms
-// // You can comment it / uncomment it
+
 // for (var y = 0; y > -100000; y -= 500) {
 //   var color;
 //   var r = Math.random();

@@ -1,5 +1,7 @@
 html {
   font-family: 'oswald';
+  margin: 0;
+  background-color: white;
 }
 
 .container {
@@ -17,6 +19,9 @@ canvas {
   /* The canvas is hidden by default but it will be displayed when the user click on play */
 }
 
+img{
+  margin-bottom: 20px;
+}
 
 
 .menu {
@@ -30,7 +35,12 @@ canvas {
 .menu button {
   font-size: 30px;
   padding: 10px 20px;
-  margin: 10px;
+  margin: 50px;
+  background-color: rgb(26, 18, 46);
+  color: white;
+  font-family: 'oswald';
+  text-align: center;
+  border-radius: 40px;
 }
 
 .menu .best-score {
