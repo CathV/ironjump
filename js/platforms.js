@@ -7,7 +7,8 @@ var platforms = [
   {
     x: 300,
     y: 300,
-    width: 100
+    width: 100,
+    color: "rgb(255, 120, 70)"
   },
   {
     x: 400,
@@ -17,7 +18,8 @@ var platforms = [
   {
     x: 600,
     y: -100,
-    width: 200
+    width: 200,
+    color: "rgb(255, 120, 70)"
   },
   {
     x: 800,
