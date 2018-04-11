@@ -1,5 +1,5 @@
 html {
-  font-family: sans-serif;
+  font-family: 'oswald';
 }
 
 .container {
@@ -12,7 +12,7 @@ html {
 canvas {
   max-width: 90vw;
   max-height: 90vh;
-  background-color: rgb(100, 110, 255);
+  background-color: rgb(255, 149, 100);
   display: none;
   /* The canvas is hidden by default but it will be displayed when the user click on play */
 }
@@ -28,7 +28,7 @@ canvas {
 
 
 .menu button {
-  font-size: 20px;
+  font-size: 30px;
   padding: 10px 20px;
   margin: 10px;
 }
